@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "es6",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "noEmitOnError": false,
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "app.tsx"
+  ]
+}

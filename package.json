@@ -1,0 +1,27 @@
+{
+  "name": "vkuitest",
+  "version": "0.0.0",
+  "description": "VKUITest",
+  "main": "server.js",
+  "author": {
+    "name": "andsimon"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.9",
+    "@types/react-dom": "^17.0.6",
+    "@vkontakte/icons": "^1.102.0",
+    "@vkontakte/vk-bridge": "^2.4.2",
+    "@vkontakte/vkui": "^4.8.0",
+    "css-loader": "^5.2.6",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "scripts": {
+    "build": "webpack-cli ./app.tsx --config webpack-config.js"
+  }
+}
